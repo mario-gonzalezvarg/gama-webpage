@@ -1,2 +1,2 @@
 # gamaCleaning
-gamaCleaning.github.io
+https://gamaCleaning.github.io
