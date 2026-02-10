@@ -1,0 +1,128 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ForestEra</title>
+    <meta name="description" content="Sustainably sourced plants and planters. Buy one. Plant one." />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+
+  <body>
+    <a class="u-skip" href="#main">Skip to content</a>
+
+    <!-- HERO -->
+    <section class="c-hero u-bg" id="home" data-bg="assets.hero.background" aria-label="Hero">
+      <header class="c-header">
+        <div class="l-container c-header__inner">
+          <a class="c-brand" href="#home" aria-label="Home">
+            <img class="c-brand__logo" data-img="assets.brand.logo" alt="MaGa Cleaning Services" />
+            <span class="c-brand__name u-sr-only" data-text="text.brand.name"></span>
+          </a>
+
+          <nav class="c-nav" aria-label="Primary">
+            <a class="c-nav__link is-active" href="#home" data-text="text.nav.home"></a>
+            <a class="c-nav__link" href="#services" data-text="text.nav.services"></a>
+            <a class="c-nav__link" href="#contact" data-text="text.nav.contact"></a>
+            <a class="c-btn c-btn--primary" href="#signup" data-text="text.nav.signup"></a>
+          </nav>
+        </div>
+      </header>
+
+      <div class="l-container c-hero__grid">
+        <div class="c-hero__copy">
+          <h1 class="c-hero__title" data-text="text.hero.title"></h1>
+          <p class="c-hero__sub" data-text="text.hero.subtitle"></p>
+
+          <div class="c-hero__actions">
+            <a class="c-btn c-btn--primary c-btn--lg" href="#plants" data-text="text.hero.ctaPrimary"></a>
+            <a class="c-btn c-btn--ghost c-btn--lg" href="#impact" data-text="text.hero.ctaSecondary"></a>
+          </div>
+
+          <a class="c-scroll" href="#impact" aria-label="Scroll to impact section">
+            <span class="c-scroll__dot" aria-hidden="true"></span>
+            <span class="c-scroll__text" data-text="text.hero.scrollHint"></span>
+          </a>
+        </div>
+
+        <div class="c-hero__tiles" aria-label="Featured highlights">
+          <div class="c-tile-grid" data-tile-grid="hero"></div>
+        </div>
+      </div>
+
+      <div class="c-partners" aria-label="Partner logos">
+        <div class="l-container c-partners__row" data-partners="default"></div>
+      </div>
+    </section>
+
+    <main id="main">
+      <!-- IMPACT -->
+      <section class="l-section l-section--tint" id="impact" aria-label="Impact">
+        <div class="l-container l-split">
+          <div class="l-split__copy">
+            <h2 class="l-title" data-text="text.impact.title"></h2>
+            <p class="l-lead" data-text="text.impact.lead"></p>
+            <p class="l-body" data-text="text.impact.body"></p>
+          </div>
+
+          <div class="l-split__panel" aria-label="Impact metrics">
+            <div class="c-metric-grid" data-metric-grid="impact"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS -->
+      <section class="l-section" id="plants" aria-label="Products">
+        <div class="l-container">
+          <div class="l-head">
+            <h2 class="l-title" data-text="text.products.title"></h2>
+            <p class="l-lead" data-text="text.products.lead"></p>
+          </div>
+
+          <div class="c-product-grid" data-product-grid="catalog" role="list" aria-label="Product grid"></div>
+        </div>
+      </section>
+
+      <!-- COMMUNITY -->
+      <section class="c-community u-bg" id="signup" data-bg="assets.community.background" aria-label="Community">
+        <div class="c-community__overlay" aria-hidden="true"></div>
+
+        <div class="l-container c-community__grid">
+          <div class="c-community__copy">
+            <h2 class="c-community__title" data-text="text.community.title"></h2>
+            <p class="c-community__lead" data-text="text.community.lead"></p>
+          </div>
+
+          <div class="c-community__panel">
+            <div class="c-tile-grid" data-tile-grid="community" aria-label="Community highlights"></div>
+
+            <form class="c-newsletter" id="contact" aria-label="Newsletter signup">
+              <label class="u-sr-only" for="email">Email address</label>
+              <input
+                class="c-newsletter__input"
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                data-attr="placeholder:text.community.newsletter.placeholder"
+              />
+              <button class="c-newsletter__btn" type="submit" aria-label="Submit email">
+                <span aria-hidden="true">→</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <footer class="c-footer" aria-label="Footer">
+          <div class="l-container c-footer__row">
+            <span class="c-footer__muted">© <span id="year">2026</span> <span data-text="text.brand.name"></span></span>
+            <a class="c-footer__link" href="#home" data-text="text.footer.backToTop"></a>
+          </div>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
