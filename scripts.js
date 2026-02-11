@@ -31,7 +31,7 @@ const SiteApp = (() => {
         scrollHint: "Contact",
       },
       impact: {
-        title: "A Real impact on Environment",
+        title: "Our Story",
         lead:
           "A purchase can be mapped to measurable outcomes by tracking trees planted, materials saved, and emissions reduced.",
         body:

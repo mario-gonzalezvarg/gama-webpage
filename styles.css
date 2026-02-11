@@ -251,8 +251,8 @@ input {
   padding: 8px 10px;
   border-radius: var(--r-pill);
   background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(10px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+  backdrop-filter: blur(32px);
 }
 
 .c-brand__mark {
@@ -332,16 +332,19 @@ input {
 }
 
 .c-hero__title {
-  margin: 0;
+  /* margin: 10%; */
+  padding: 15px 14% 1rem;
   font-size: var(--h1);
   line-height: 1.03;
   letter-spacing: -0.03em;
 }
 
 .c-hero__sub {
-  margin: 12px 0 0;
+  /* margin: 12px 0 0; */
+  margin: auto 36%;
+  line-height: 0.5;
   color: rgba(240, 248, 240, 0.92);
-  font-weight: 520;
+  font-weight: 620;
 }
 
 .c-hero__actions {
