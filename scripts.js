@@ -57,7 +57,7 @@ const SiteApp = (() => {
     },
 
     partnerRows: {
-      default: ["Olalla, WA", "Mon–Fri 8:00AM–5:00PM", "(253) 258-5779", "mario@magacleaningservices.com"],
+      default: ["Mon–Fri 8:00AM–5:00PM", "mario@magacleaningservices.com", "(253) 258-5779", ],
     },
 
     productGrids: {
