@@ -355,8 +355,8 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 14px;          /* was 85px */
-  margin-top: 16px;   /* optional: slightly tighter */
+  gap: 14px;          
+  margin-top: 16px;  
 }
 
 
